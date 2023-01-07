@@ -1,0 +1,18 @@
+{
+  "name": "case-converter",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "./",
+  "scripts": {
+    "dev": "vite --open",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.3",
+    "vite": "^4.0.0"
+  }
+}
